@@ -1,0 +1,40 @@
+{
+  "name": "globetrotter",
+  "version": "1.0.0",
+  "description": "Lightweight and component-based state-managements system for React",
+  "main": "build/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "babel lib -d build",
+    "build:watch": "babel lib -w -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbgrabbag/react-global-state.git"
+  },
+  "keywords": [
+    "state-management",
+    "react",
+    "state",
+    "global"
+  ],
+  "author": "Ben Turner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbgrabbag/react-global-state/issues"
+  },
+  "homepage": "https://github.com/bbgrabbag/react-global-state#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
