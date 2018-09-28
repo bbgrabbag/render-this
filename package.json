@@ -1,6 +1,6 @@
 {
   "name": "globetrotter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight and component-based state-managements system for React",
   "main": "build/index.js",
   "directories": {
