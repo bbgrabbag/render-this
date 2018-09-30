@@ -16,7 +16,7 @@ Author **Ben Turner**
 ---
 
 ### How?
-`render-this` aggregates all the states and methods of arbitrarily many React components into a single consumable object, accessible via a very simple function called [`connect`](#§-connect)
+`render-this` aggregates all the states and methods of arbitrarily many React components into a single consumable object, accessible via a very simple function called [`connect`](#api-reference)
 
 ---
 
@@ -30,7 +30,7 @@ So you have a component. You want its state and methods to be available to all o
    * This can get large and unwieldy fast.
    * Even with multiple smaller ones the `Provider` components start stacking up.
   
-`render-this` essentially does this the second option for you. You simply broadcast which components you want to be globally available and all states/methods will be combined into a single consumable object accessible through [`connect`](#§-connect)
+`render-this` essentially does this the second option for you. You simply broadcast which components you want to be globally available and all states/methods will be combined into a single consumable object accessible through [`connect`](#api-reference)
 
 ---
 
@@ -83,9 +83,9 @@ ReactDOM.render(
 )
 ```
 
-Elsewhere in your app, use the [`connect`](#§-connect) function to access all the methods on `Auth` as well as its current state. Notice that the props passed to login is called `auth`, which is just the camelCased name of the component `Auth` (the next version will allow for custom naming).
+Elsewhere in your app, use the [`connect`](#api-reference) function to access all the methods on `Auth` as well as its current state. Notice that the props passed to login is called `auth`, which is just the camelCased name of the component `Auth` (the next version will allow for custom naming).
 
-By default the entire state is passed down, but you can explicitly pick and choose which part of state you need. See  [`connect`](#§-connect) below.
+By default the entire state is passed down, but you can explicitly pick and choose which part of state you need. See  [`connect`](#api-reference) below.
 
 ```js
 import { connect } from "render-this";
