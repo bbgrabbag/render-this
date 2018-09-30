@@ -1,7 +1,7 @@
 {
-  "name": "globetrotter",
-  "version": "1.0.1",
-  "description": "Lightweight and component-based state-managements system for React",
+  "name": "render-this",
+  "version": "1.0.2",
+  "description": "Lightweight and component-based state-management system for React",
   "main": "build/index.js",
   "directories": {
     "lib": "lib"
