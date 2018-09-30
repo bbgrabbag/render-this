@@ -1,6 +1,6 @@
 {
   "name": "render-this",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Lightweight and component-based state-management system for React",
   "main": "build/index.js",
   "directories": {
