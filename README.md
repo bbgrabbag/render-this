@@ -9,6 +9,17 @@ Author **Ben Turner**
 `npm i render-this`
 
 ---
+### Table of Contents
+
+* [What?](#what)
+* [How?](#how)
+* [Why?](#why)
+* [Get Started](#get-started)
+* [Api Reference](#api-reference)
+* [Changelog](#changelog)
+* [Upcoming Features](#upcoming-features)
+
+---
 
 ### What?
 `render-this` is a [React](https://reactjs.org/) state management tool for easily managing large or complex nested states. Additionally, it reduces the boilerplate code necessary for tools like [Redux](https://www.npmjs.com/package/redux).
