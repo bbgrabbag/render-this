@@ -83,9 +83,9 @@ ReactDOM.render(
 )
 ```
 
-Elsewhere in your app, use the `connect` function to access all the methods on `Auth` as well as its current state. Notice that the props passed to login is called `auth`, which is just the camelCased name of the component `Auth` (the next version will allow for custom naming).
+Elsewhere in your app, use the [`connect`](#§connect) function to access all the methods on `Auth` as well as its current state. Notice that the props passed to login is called `auth`, which is just the camelCased name of the component `Auth` (the next version will allow for custom naming).
 
-By default the entire state is passed down, but you can explicitly pick and choose which part of state you need. See [`connect`](#§`connect`) below.
+By default the entire state is passed down, but you can explicitly pick and choose which part of state you need. See [`connect`](#§connect) below.
 
 ```js
 import { connect } from "render-this";
@@ -129,7 +129,7 @@ console.log(props)
 --- 
 ### API Reference
 
-### §`<GlobalState>`
+### §<GlobalState>
 Wrapper component which provides a React App with global state.
 
 #### Props
@@ -141,7 +141,7 @@ Wrapper component which provides a React App with global state.
 
 ---
 
-### §`connect`
+### §connect
 HOC which adds global state object to props.
 
 #### Args
